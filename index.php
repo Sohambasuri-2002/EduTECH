@@ -261,28 +261,28 @@ if($_SESSION['$message'])
             <form action="data_check.php" method="POST">
                 <div class="adm_int">
                     <label class="text">Name</label>
-                    <input class="intext" type="text" name="name" id="name" placeholder="Enter Name" required>
+                    <input class="intext" type="text" name="name" id="name" placeholder="Enter Name" autocomplete="off" required>
                 </div>
 
                 <div class="adm_int">
                     <label class="text">Email</label>
-                    <input class="intext" type="email" name="email" id="email" placeholder="Enter Email" required>
+                    <input class="intext" type="email" name="email" id="email" placeholder="Enter Email" autocomplete="off" required>
                 </div>
 
                 <div class="adm_int">
                     <label class="text">Phone</label>
-                    <input class="intext" type="text" name="phone" id="address" placeholder="Enter Address" required>
+                    <input class="intext" type="text" name="phone" id="address" placeholder="Enter Address" autocomplete="off" required>
                 </div>
 
                 <div class="adm_int">
                     <label class="text">Age</label>
-                    <input class="intext" type="text" name="age" id="age" placeholder="Enter Age" required>
+                    <input class="intext" type="text" name="age" id="age" placeholder="Enter Age" autocomplete="off" required>
                 </div>
 
 
                 <div class="adm_int">
                     <label class="text">Address</label>
-                    <input class="intext" type="text" name="address" id="address" placeholder="Enter Address" required>
+                    <input class="intext" type="text" name="address" id="address" placeholder="Enter Address" autocomplete="off" required>
                 </div>
 
                 <div class="adm_int">
