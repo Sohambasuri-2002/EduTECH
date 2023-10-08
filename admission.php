@@ -11,6 +11,17 @@ elseif($_SESSION['usertype']=='student')
     header("location:login.php");
 }
 
+$host="localhost";
+$user="root";
+$password="";
+$db="student";
+
+$data = mysqli_connect($host,$user,$password,$db);
+
+$sql = "SELECT * from admins";
+
+$result = mysqli_query($data,$sql);
+
 ?>
 
 
@@ -25,49 +36,54 @@ elseif($_SESSION['usertype']=='student')
 </head>
 <body>
 
-    <header class="header">
-        <a class="h2" href="">Admin dashboard</a>
+    <?php
+    include 'admin_sidebar.php';
 
-        <div class="logout">
-            <a class="h3" href="logout.php">Logout</a>
-        </div>
-
-    </header>
-
-    <aside>
-        <ul>
-            <li>
-                <a href="admission.php">Admission</a>
-            </li>
-
-            <li>
-                <a href="">Add Student</a>
-            </li>
-
-            <li>
-                <a href="">View Student</a>
-            </li>
-
-            <li>
-                <a href="">Add Teacher</a>
-            </li>
-
-            <li>
-                <a href="">View Teacher</a>
-            </li>
-
-            <li>
-                <a href="">Add Course</a>
-            </li>
-
-            <li>
-                <a href="">View Course</a>
-            </li>
-        </ul>
-    </aside>
+    ?>
 
     <div class="content">
         <h1>Admission</h1>
+        <br><br><br>
+        <table border="1px">
+            <tr>
+                <th style="padding: 20px; font-size:15px;">Name</th>
+                <th tyle="padding: 20px; font-size:15px;">Email</th>
+                <th tyle="padding: 20px; font-size:15px;">Phone</th>
+                <th tyle="padding: 20px; font-size:15px;">Age</th>
+                <th tyle="padding: 20px; font-size:15px;">Address</th>
+            </tr>
+
+            <?php
+
+            while($info=$result->fetch_assoc())
+            {
+
+            ?>
+
+            <tr>
+                <td style="padding: 20px;">
+                    <?php echo "{$info['name']}"; ?>
+                </td>
+                <td style="padding: 20px;">
+                    <?php echo "{$info['email']}"; ?>
+                </td>
+                <td style="padding: 20px;"> 
+                    <?php echo "{$info['phone']}"; ?>
+                </td>
+                <td style="padding: 20px;"> 
+                    <?php echo "{$info['age']}"; ?>
+                </td>
+                <td style="padding: 20px;"> 
+                    <?php echo "{$info['address']}"; ?>
+                </td>
+            </tr>
+
+            <?php
+
+            }
+
+            ?>
+        </table>
     </div>
     
 </body>

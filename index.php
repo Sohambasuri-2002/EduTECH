@@ -41,6 +41,7 @@ if($_SESSION['$message'])
                 <li><a href="">Contact</a></li>
                 <li><a href="">Admission</a></li>
                 <li><a href="login.php">Login</a></li>
+                
             </ul>
         </nav>
 
@@ -61,6 +62,9 @@ if($_SESSION['$message'])
 
         
         <p style="text-align:center; font-size:50px; font-family: 'Young Serif', serif; font-weight:bold;">Welcome to EduTECH</p>
+        <center>
+            <img class="blue" src="blu.png">
+        </center>
         <br><br><br>
         <div class="container">
             <div class="row">
@@ -81,6 +85,9 @@ if($_SESSION['$message'])
 
         <center>
             <h1 style="font-size:40px;font-weight:bold;">Our Courses</h1>
+        </center>
+        <center>
+            <img class="blue" src="blu.png">
         </center>
         <br><br><br>
         <div class="container">
@@ -132,6 +139,9 @@ if($_SESSION['$message'])
             <center>
                 <h1 style="font-size:40px;font-weight:bold;">Our Rankings</h1>
             </center>
+            <center>
+            <img class="blue" src="blu.png">
+            </center>
             <br><br><br>
 
             <div class="container">
@@ -162,6 +172,9 @@ if($_SESSION['$message'])
 
         <center>
             <h1 style="font-size:40px;font-weight:bold;">Our Alumni</h1>
+        </center>
+        <center>
+            <img class="blue" src="blu.png">
         </center>
 
         <br><br><br>
@@ -194,6 +207,9 @@ if($_SESSION['$message'])
 
         <center>
             <h1 style="font-size:40px;font-weight:bold;">Top Companies Hiring</h1>
+        </center>
+        <center>
+            <img class="blue" src="blu.png">
         </center>
         <br><br><br>
         <div class="container">
@@ -237,6 +253,7 @@ if($_SESSION['$message'])
         <center>
             <h1 style="font-size:40px;font-weight:bold;">Admission Form</h1>
         </center>
+        
         <br><br>
 
         <div align="center" class="admission_form">
@@ -245,28 +262,28 @@ if($_SESSION['$message'])
             <form action="data_check.php" method="POST">
                 <div class="adm_int">
                     <label class="text">Name</label>
-                    <input class="intext" type="text" name="name" id="name" placeholder="Enter Name">
+                    <input class="intext" type="text" name="name" id="name" placeholder="Enter Name" required>
                 </div>
 
                 <div class="adm_int">
                     <label class="text">Email</label>
-                    <input class="intext" type="email" name="email" id="email" placeholder="Enter Email">
+                    <input class="intext" type="email" name="email" id="email" placeholder="Enter Email" required>
                 </div>
 
                 <div class="adm_int">
                     <label class="text">Phone</label>
-                    <input class="intext" type="text" name="phone" id="address" placeholder="Enter Address">
+                    <input class="intext" type="text" name="phone" id="address" placeholder="Enter Address" required>
                 </div>
 
                 <div class="adm_int">
                     <label class="text">Age</label>
-                    <input class="intext" type="text" name="age" id="age" placeholder="Enter Age">
+                    <input class="intext" type="text" name="age" id="age" placeholder="Enter Age" required>
                 </div>
 
 
                 <div class="adm_int">
                     <label class="text">Address</label>
-                    <input class="intext" type="text" name="address" id="address" placeholder="Enter Address">
+                    <input class="intext" type="text" name="address" id="address" placeholder="Enter Address" required>
                 </div>
 
                 <div class="adm_int">
@@ -279,6 +296,7 @@ if($_SESSION['$message'])
         <footer>
             <p class="foottext">All rights reserved by @EduTECH</p>
         </footer>
+
 </body>
 </html>
 
