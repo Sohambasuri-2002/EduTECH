@@ -33,9 +33,8 @@ if($_SESSION['$message'])
 </head>
 <body>
         <nav>
-            <img class="logo_front" src="portal111.jpg">
+            <img class="logo_front" src="image/portal111.jpg">
             <label class="logo">EduTECH</label>
-
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">Contact</a></li>
@@ -47,7 +46,7 @@ if($_SESSION['$message'])
 
         <div class="section1">
 
-            <img class="main_logo" src="edu2.svg">
+            <img class="main_logo" src="image/edu2.svg">
         </div>
 
 
@@ -63,13 +62,13 @@ if($_SESSION['$message'])
         
         <p style="text-align:center; font-size:50px; font-family: 'Young Serif', serif; font-weight:bold;">Welcome to EduTECH</p>
         <center>
-            <img class="blue" src="blu.png">
+            <img class="blue" src="image/blu.png">
         </center>
         <br><br><br>
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <img class="welcome_img" src="school.jpg">
+                    <img class="welcome_img" src="image/school.jpg">
                 </div>
 
                 <div class="col-md-4">
@@ -87,38 +86,38 @@ if($_SESSION['$message'])
             <h1 style="font-size:40px;font-weight:bold;">Our Courses</h1>
         </center>
         <center>
-            <img class="blue" src="blu.png">
+            <img class="blue" src="image/blu.png">
         </center>
         <br><br><br>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img class="course" src="cse.jpg">
+                    <img class="course" src="image/cse.jpg">
                     <p style="text-align:center;font-size:18px;font-weight:bold;">Computer Science</p>
                 </div>
 
                 <div class="col-md-4">
-                    <img class="course1" src="it.jpg">
+                    <img class="course1" src="image/it.jpg">
                     <p style="text-align:center;font-size:18px;font-weight:bold;">Information Technology</p>
                 </div>
 
                 <div class="col-md-4">
-                    <img class="course2" src="ece.jpg">
+                    <img class="course2" src="image/ece.jpg">
                     <p style="text-align:center;font-size:18px;font-weight:bold;">Electronics & Communication</p>
                 </div>
                 
                 <div class="col-md-4">
-                    <img class="cont1" src="civil.png">
+                    <img class="cont1" src="image/civil.png">
                     <p style="text-align:center;font-size:18px;font-weight:bold;">Civil Engineeering</p>
                 </div>
                 <br><br><br><br>
                 <div class="col-md-4">
-                    <img class="cont2" src="eee.jpg">
+                    <img class="cont2" src="image/eee.jpg">
                     <p style="text-align:center;font-size:18px;font-weight:bold;">Electrical Engineering</p>
                 </div>
                 <br><br><br><br>
                 <div class="col-md-4">
-                    <img class="cont3" src="mec.webp">
+                    <img class="cont3" src="image/mec.webp">
                     <p style="text-align:center;font-size:18px;font-weight:bold;">Mechanical Engineering</p>
                 </div>
             </div>
@@ -140,24 +139,24 @@ if($_SESSION['$message'])
                 <h1 style="font-size:40px;font-weight:bold;">Our Rankings</h1>
             </center>
             <center>
-            <img class="blue" src="blu.png">
+            <img class="blue" src="image/blu.png">
             </center>
             <br><br><br>
 
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <img class="course" src="k4.webp">
+                        <img class="course" src="image/k4.webp">
                         
                     </div>
 
                     <div class="col-md-4">
-                        <img class="course1" src="k2.jpg">
+                        <img class="course1" src="image/k2.jpg">
                         
                     </div>
 
                     <div class="col-md-4">
-                        <img class="course2" src="k3.png">
+                        <img class="course2" src="image/k3.png">
                         
                     </div>
                 </div>
@@ -174,7 +173,7 @@ if($_SESSION['$message'])
             <h1 style="font-size:40px;font-weight:bold;">Our Alumni</h1>
         </center>
         <center>
-            <img class="blue" src="blu.png">
+            <img class="blue" src="image/blu.png">
         </center>
 
         <br><br><br>
@@ -182,19 +181,19 @@ if($_SESSION['$message'])
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img class="course" src="p1.jpg">
+                    <img class="course" src="image/p1.jpg">
                     <h1 style="text-align:center;left:-20px; font-size:30px; font-family: 'Young Serif', serif; font-weight:bold;">Rohan Mishra</h1>
                     <p style="text-align:center; font-family: 'Young Serif', serif; font-weight:bold;">Placed : Amazon (2023) </p>
                 </div>
 
                 <div class="col-md-4">
-                    <img class="course1" src="p1.jpg">
+                    <img class="course1" src="image/p1.jpg">
                     <h1 style="text-align:center;left:-20px; font-size:30px; font-family: 'Young Serif', serif; font-weight:bold;">Shruti Ghoshal</h1>
                     <p style="text-align:center; font-family: 'Young Serif', serif; font-weight:bold;">Placed : Deloitte</p>
                 </div>
 
                 <div class="col-md-4">
-                    <img class="course2" src="p1.jpg">
+                    <img class="course2" src="image/p1.jpg">
                     <h1 style="text-align:center;left:-20px; font-size:30px; font-family: 'Young Serif', serif; font-weight:bold;">Rahul Roy</h1>
                     <p style="text-align:center; font-family: 'Young Serif', serif; font-weight:bold;">Placed : Capgemini</p>
                 </div>
@@ -209,38 +208,38 @@ if($_SESSION['$message'])
             <h1 style="font-size:40px;font-weight:bold;">Top Companies Hiring</h1>
         </center>
         <center>
-            <img class="blue" src="blu.png">
+            <img class="blue" src="image/blu.png">
         </center>
         <br><br><br>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img class="course" src="a1.png">
+                    <img class="course" src="image/a1.png">
                     <!-- <p style="text-align:center;font-size:18px;font-weight:bold;">Amazon</p> -->
                 </div>
 
                 <div class="col-md-4">
-                    <img class="course1" src="a2.jpg">
+                    <img class="course1" src="image/a2.jpg">
                     <!-- <p style="text-align:center;font-size:18px;font-weight:bold;">Capgemini</p> -->
                 </div>
 
                 <div class="col-md-4">
-                    <img class="course2" src="a3.png">
+                    <img class="course2" src="image/a3.png">
                     <!-- <p style="text-align:center;font-size:18px;font-weight:bold;">Ericsson</p> -->
                 </div>
                 
                 <div class="col-md-4">
-                    <img class="cont1" src="a4.jpg">
+                    <img class="cont1" src="image/a4.jpg">
                     <!-- <p style="text-align:center;font-size:18px;font-weight:bold;">High radius</p> -->
                 </div>
                 <br><br><br><br>
                 <div class="col-md-4">
-                    <img class="cont2" src="a7.webp">
+                    <img class="cont2" src="image/a7.webp">
                     <!-- <p style="text-align:center;font-size:18px;font-weight:bold;">Infosys</p> -->
                 </div>
                 <br><br><br><br>
                 <div class="col-md-4">
-                    <img class="cont3" src="a6.jpg">
+                    <img class="cont3" src="image/a6.jpg">
                     <!-- <p style="text-align:center;font-size:18px;font-weight:bold;">Wipro</p> -->
                 </div>
             </div>
